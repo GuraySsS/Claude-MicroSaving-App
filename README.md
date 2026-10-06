@@ -40,12 +40,17 @@ Built with Kotlin and Jetpack Compose. All data stays on the phone.
 
 ### Option A: Download a ready-made APK (easiest)
 
-Every time code is pushed, GitHub builds the app automatically.
+Every time code is pushed, GitHub builds the app automatically and publishes it.
 
-1. Open the repository on GitHub and click the **Actions** tab.
-2. Click the newest **Build APK** run with a green ✔.
-3. Scroll down to **Artifacts** and download **SummitSaver-apk** (a zip file).
-4. Unzip it — inside is `app-debug.apk`.
+1. Open the repository on GitHub and click **Releases** (right-hand side of the main page).
+2. In the newest *Summit Saver build*, click **SummitSaver.apk** under *Assets* to download it.
+
+### Try it in your browser (Appetize.io)
+
+1. Download **SummitSaver.apk** as above.
+2. Go to <https://appetize.io>, sign up for free and upload `SummitSaver.apk`
+   (the `.apk` file itself, not a `.zip`).
+3. Open the link it gives you and press **Play** — the app runs on a virtual phone in your browser.
 
 To install it on your Android phone:
 
