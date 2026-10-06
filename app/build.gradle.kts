@@ -16,13 +16,26 @@ android {
         versionName = "1.0"
     }
 
+    // A fixed key committed to the repo, so every build (local or GitHub) has the same
+    // signature and a newer APK can be installed over an older one. For testing only:
+    // use your own private key before publishing to Google Play.
+    signingConfigs {
+        create("test") {
+            storeFile = file("test-signing.keystore")
+            storePassword = "summitsaver"
+            keyAlias = "summitsaver"
+            keyPassword = "summitsaver"
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig = signingConfigs.getByName("test")
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            // Signed with the debug key so the release APK can be installed for testing.
-            // Replace with your own keystore before publishing to Google Play.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName("test")
         }
     }
 

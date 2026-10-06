@@ -58,6 +58,15 @@ To install it on your Android phone:
 2. Tap it on the phone. Android will ask to allow installing from this source — allow it.
 3. Tap **Install**, then **Open**.
 
+### "App not installed"?
+
+- **Uninstall any older Summit Saver first** (long-press the icon → *Uninstall*), then install again.
+  Builds before *build-3* were each signed with a different key, so they can't update each other.
+  From build-3 on, every build uses the same key and newer versions install over older ones.
+- If **Play Protect** warns about an unknown app, choose *More details → Install anyway*.
+- Make sure the download finished (the file is about 9–10 MB) and the phone has free storage.
+- The app needs **Android 8.0 or newer**.
+
 ### Option B: Run it on a virtual phone on your computer (Android Studio)
 
 1. Download and install **Android Studio**: <https://developer.android.com/studio>
