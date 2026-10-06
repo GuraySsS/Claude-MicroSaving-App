@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- back mountain -->
+    <path android:fillColor="#FF9FA8DA" android:pathData="M18,80 L44,46 L60,66 Z" />
+    <!-- main mountain -->
+    <path android:fillColor="#FF66BB6A" android:pathData="M26,80 L56,34 L86,80 Z" />
+    <!-- snow cap -->
+    <path android:fillColor="#FFFFFFFF" android:pathData="M56,34 L64.5,47 L60,45 L56,49 L52,45 L47.5,47 Z" />
+    <!-- trail -->
+    <path android:strokeColor="#FFFFE0B2" android:strokeWidth="2"
+        android:pathData="M44,78 L66,70 L50,62 L62,54 L56,46" />
+    <!-- summit flag -->
+    <path android:strokeColor="#FF5D4037" android:strokeWidth="1.5" android:pathData="M56,34 L56,24" />
+    <path android:fillColor="#FFFF7043" android:pathData="M56,24 L64,27 L56,30 Z" />
+</vector>

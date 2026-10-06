@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.SummitSaver" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#FFE8F5E9</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/ic_launcher_background</item>
+    </style>
+</resources>
